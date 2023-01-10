@@ -1,0 +1,7 @@
+<p><img [src] = "image" alt = "playmobil"/></p>
+<p>Nom: {{ name }}</p>
+<p>Prénom: {{ surname }}</p>
+<p *ngIf="this.isChangeAge">Age: {{ age }}</p>
+<p>{{ text }}</p>
+<input [(ngModel)] = "text"> <br><br>
+<button (click) = "changeTexte()">Afficher/Masquer mon age</button>
